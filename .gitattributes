@@ -1,0 +1,8 @@
+# Don't allow people to merge changes to these generated files, because the
+# result may be invalid. You need to run "npm install" again.
+package-lock.json	merge=binary
+npm-shrinkwrap.json	merge=binary
+yarn.lock			merge=binary
+
+# Allow comments in JSON.
+*.json				linguist-language=JSON-with-Comments
