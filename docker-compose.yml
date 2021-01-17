@@ -5,3 +5,9 @@ services:
     build: services/express-demo
     ports:
       - "3000:3000"
+  registry:
+    build: services/registry
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: "3001"
